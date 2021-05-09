@@ -1,0 +1,10 @@
+_minted-thesis
+*.aux
+*.bbl
+*.blg
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.toc
