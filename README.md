@@ -1,30 +1,16 @@
-# UI Style
+# My [thesis.pdf](thesis.pdf) About FMI Management System Written in LaTeX.
 
-LaTeX configuration for report/thesis/dissertation according to [University Indonesia](http://www.ui.ac.id/) standard. Originally made by Andreas Febrian and available for download [here](http://komunitas.ui.ac.id/pg/file/andreas.febrian/read/12945/template-latex-untuk-laporan-skripsithesisdisertasi)
+## Installation
 
-## Original author & contributors
+Make sure you already install LaTeX. You can follow [Installing LaTeX - lukesmith.xyz](https://lukesmith.xyz/articles/wanna-learn-latex#install) article.
 
-Author: Andreas Febrian
+Then, you can compile the document with this command:
 
-Contributors:
+```shell
+make clean build
+```
 
-1. Lia Sadita
-2. Andre Tampubolon
-3. Erik Dominikus
-4. Fahrurrozi Rahman
+## Credit
 
-## Updates
+This project is initiating form [Thesis Template for Universitas Indonesia](https://www.overleaf.com/latex/templates/thesis-template-for-universitas-indonesia/brfkhqvmkzhv) with some modification according to [Panduan Penulisan Karya Tulis Ilmiah - UNP Kediri](http://informatika.unpkediri.ac.id/login/pages/media/document/852688458322.pdf).
 
-- Alternative bibliography management
-- Handling multiline source code
-- Additional math symbols
-
----
-
-## Modifications
-
-- Restructure project
-- Add code listings with [minted](https://github.com/gpoore/minted)
-- Makefile
-- Modify to latest (2017) standard according to _KEPUTUSAN REKTOR UNIVERSITAS INDONESIA NOMOR 2143/SK/R/Ul/2017_.
-- Use eps for UI logo
